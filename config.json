@@ -1,0 +1,44 @@
+{
+    "services": [
+        {
+            "name": "lc",
+            "enable": true,
+            "codec": "line",
+            "protocol": "tcp",
+            "ip": "127.0.0.1",
+            "port": 30005
+        },
+        {
+            "name": "mysql",
+            "enable": true,
+            "codec": "line",
+            "protocol": "tcp",
+            "ip": "127.0.0.1",
+            "port": 3306
+        },
+        {
+            "name": "memcached",
+            "enable": true,
+            "codec": "line",
+            "protocol": "tcp",
+            "ip": "127.0.0.1",
+            "port": 11211
+        },
+        {
+            "name": "redis",
+            "enable": false,
+            "codec": "line",
+            "protocol": "tcp",
+            "ip": "127.0.0.1",
+            "port": 6379
+        },
+        {
+            "name": "radiz",
+            "enable": true,
+            "codec": "line",
+            "protocol": "tcp",
+            "ip": "127.0.0.1",
+            "port": 7001
+        }
+    ]
+}
